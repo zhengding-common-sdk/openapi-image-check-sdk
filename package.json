@@ -1,6 +1,6 @@
 {
   "name": "toaddit-openapi-image-check-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A GitLab project that encapsulates image upload functionality for foreign systems' OpenAPI, used to provide some common methods to third-parties of the OpenAPI.",
   "main": "./dist/main.js",
   "scripts": {
