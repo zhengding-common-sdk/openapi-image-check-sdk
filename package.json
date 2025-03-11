@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/zhengding-common-sdk/openapi-image-check-sdk"
   },
-  "keywords": ["Image verification"],
+  "keywords": ["Image verification", "toaddit-openapi-image-upload-sdk"],
   "author": "",
   "license": "MIT",
   "devDependencies": {

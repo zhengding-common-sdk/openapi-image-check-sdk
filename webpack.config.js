@@ -21,7 +21,7 @@ const baseConfig = {
   output: {
     path: path.resolve(__dirname, 'dist'), // 打包后的输出路径
     filename: '[name].js', // 打包后的输出文件名
-    library: 'ToadditOpenapiImageCheckSdk',
+    library: 'ToadditOpenapiImageUploadSdk',
     // 库的导出方式，支持多种模块规范
     libraryTarget: 'umd',
     // 兼容不同的环境，如浏览器和 Node.js
