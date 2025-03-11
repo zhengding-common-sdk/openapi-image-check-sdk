@@ -1,0 +1,36 @@
+{
+  "name": "toaddit-openapi-image-upload-sdk",
+  "version": "1.0.0",
+  "description": "A GitLab project that encapsulates image upload functionality for foreign systems' OpenAPI, used to provide some common methods to third-parties of the OpenAPI.",
+  "main": "./dist/main.js",
+  "scripts": {
+    "serve": "webpack --config webpack.config.js --watch",
+    "dev": "cross-env NODE_ENV=decelopment webpack --config webpack.config.js",
+    "prd": "cross-env NODE_ENV=production webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhengding-common-sdk/openapi-image-check-sdk"
+  },
+  "keywords": ["Image verification", "toaddit-openapi-image-upload-sdk"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-lodash": "^3.3.4",
+    "lodash": "^4.17.21",
+    "terser-webpack-plugin": "^2.3.6",
+    "webpack": "^4.47.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "compressorjs": "^1.0.7",
+    "cross-env": "^7.0.3",
+    "exifr": "^7.1.3",
+    "exifreader": "^4.23.7",
+    "file-type": "^16.5.4"
+  }
+}
