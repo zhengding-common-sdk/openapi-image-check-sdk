@@ -1,6 +1,6 @@
 {
-  "name": "toaddit-openapi-image-upload-sdk",
-  "version": "1.0.0",
+  "name": "toaddit-openapi-image-check-sdk",
+  "version": "1.0.4",
   "description": "A GitLab project that encapsulates image upload functionality for foreign systems' OpenAPI, used to provide some common methods to third-parties of the OpenAPI.",
   "main": "./dist/main.js",
   "scripts": {
@@ -12,7 +12,10 @@
     "type": "git",
     "url": "https://github.com/zhengding-common-sdk/openapi-image-check-sdk"
   },
-  "keywords": ["Image verification", "toaddit-openapi-image-upload-sdk"],
+  "keywords": [
+    "Image verification",
+    "toaddit-openapi-image-check-sdk"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {

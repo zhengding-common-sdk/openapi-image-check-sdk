@@ -1,4 +1,4 @@
-# toaddit-openapi-image-upload-sdk
+# toaddit-openapi-image-check-sdk
 
 The customizer supports **RGB color mode**, **sRGB color standard**, and **PNG, JPG, JPEG** image formats.  
 This SDK verifies images by checking their color mode, color profile, and format to filter out abnormal images, ensuring compatibility with the customizer.
@@ -8,13 +8,13 @@ This SDK verifies images by checking their color mode, color profile, and format
 ### Install via npm
 
 ```bash
-npm install toaddit-openapi-image-upload-sdk
+npm install toaddit-openapi-image-check-sdk
 ```
 
 ### Install via yarn
 
 ```bash
-yarn add toaddit-openapi-image-upload-sdk
+yarn add toaddit-openapi-image-check-sdk
 ```
 
 ## Usage
@@ -22,13 +22,13 @@ yarn add toaddit-openapi-image-upload-sdk
 ### Browser Import
 
 Download dist/main.js and include it in your project.
-A global variable ToadditOpenapiImageUploadSdk will be available on window:
+A global variable ToadditOpenapiImageCheckSdk will be available on window:
 
 ```js
 <script src="./main.js"></script>
 
 <script>
-  const { batchOriginImageValidator } = ToadditOpenapiImageUploadSdk;
+  const { batchOriginImageValidator } = ToadditOpenapiImageCheckSdk;
   const files = []; // Uploaded image files
   batchOriginImageValidator(files, true).then(res => {
   console.log('Verification result:', res);
@@ -40,7 +40,7 @@ A global variable ToadditOpenapiImageUploadSdk will be available on window:
 ### ES Modules Import
 
 ```js
-import { batchOriginImageValidator } from 'toaddit-openapi-image-upload-sdk';
+import { batchOriginImageValidator } from 'toaddit-openapi-image-check-sdk';
 
 const files = []; // Uploaded image files
 batchOriginImageValidator(files, true).then(res => {
@@ -51,7 +51,7 @@ batchOriginImageValidator(files, true).then(res => {
 ### CommonJS Import
 
 ```js
-const { batchOriginImageValidator } = require('toaddit-openapi-image-upload-sdk');
+const { batchOriginImageValidator } = require('toaddit-openapi-image-check-sdk');
 
 const files = []; // Uploaded image files
 batchOriginImageValidator(files, true).then(res => {
@@ -61,11 +61,11 @@ batchOriginImageValidator(files, true).then(res => {
 
 ## Live Demo
 
-[View Example](https://toaddit.github.io/toaddit-openapi-image-upload-sdk/example/index.html)
+[View Example](https://github.com/zhengding-common-sdk/toaddit-openapi-image-check-sdk/blob/mater/example/index.html)
 
 ### API Documentation
 
-#### ToadditOpenapiImageUploadSdk.batchOriginImageValidator
+#### ToadditOpenapiImageCheckSdk.batchOriginImageValidator
 
 | Parameter | Type | Required | Default | Description                    |
 |-----------|-----------------------------------------------------------------------------------------|--------|---|--------------------------------|
