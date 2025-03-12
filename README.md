@@ -61,7 +61,7 @@ batchOriginImageValidator(files, true).then(res => {
 
 ## Live Demo
 
-[View Example](https://toaddit.github.io/toaddit-openapi-image-check-sdk/example/index.html)
+[View Example](https://github.com/zhengding-common-sdk/toaddit-openapi-image-check-sdk/blob/mater/example/index.html)
 
 ### API Documentation
 
